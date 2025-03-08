@@ -22,7 +22,7 @@ Este repositorio contiene una exploración visual de vectores, utilizando varios
 Notebooks disponibles aquí:
 
 * [Generamos embeddings de OpenAI para conjuntos de datos](prep_openai.ipynb)
-* [Generamos embeddings de Word2Vec para conjuntos de datos](prep_word2vec_gnews.ipynb)
+* [Generamos embeddings de Word2Vec para conjuntos de datos](../prep_word2vec_gnews.ipynb)
 * [Generamos nuevos embeddings de texto de OpenAI](generate_embedding.ipynb)
 * [Comparamos embeddings de OpenAI y Word2Vec](comparison.ipynb)
 * [Similitud vectorial](similarity.ipynb)
