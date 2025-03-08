@@ -32,4 +32,3 @@ Notebooks available here:
 * [Vector distance metrics](distance_metrics.ipynb)
 * [Vector quantization](quantization.ipynb)
 * [Vector dimension reduction (MRL)](dimension_reduction.ipynb)
-
