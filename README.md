@@ -19,10 +19,14 @@ Vector embeddings are commonly used for similarity search, fraud detection, reco
 
 This repository contains a visual exploration of vectors, using several embedding models.
 
-Notebooks available here:
+Before running the notebooks, install the requirements:
 
-* [Generate OpenAI embeddings for datasets](prep_openai.ipynb)
-* [Generate Word2Vec embeddings for datasets](prep_word2vec_gnews.ipynb)
+```shell
+pip install -r requirements.txt
+```
+
+Then explore these notebooks:
+
 * [Generate new OpenAI text embeddings](generate_embedding.ipynb)
 * [Compare OpenAI and Word2Vec embeddings](comparison.ipynb)
 * [Vector similarity](similarity.ipynb)
@@ -33,3 +37,7 @@ Notebooks available here:
 * [Vector quantization](quantization.ipynb)
 * [Vector dimension reduction (MRL)](dimension_reduction.ipynb)
 
+These notebooks are also provided, but aren't necessary unless you're generating new embeddings data.
+
+* [Generate OpenAI embeddings for datasets](prep_openai.ipynb)
+* [Generate Word2Vec embeddings for datasets](prep_word2vec_gnews.ipynb)

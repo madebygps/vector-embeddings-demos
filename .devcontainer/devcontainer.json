@@ -1,9 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/python-3
 {
-    "name": "visual-exploration-vectors",
-    "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
-
+    "name": "vector-embeddings-demos",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
     // Configure tool-specific properties.
     "customizations": {
         // Configure properties specific to VS Code.
@@ -27,7 +29,7 @@
     // "forwardPorts": [],
 
 	// Use 'postStartCommand' to run commands after the container is started (more frequently than create).
-	"postStartCommand": "pip3 install --user -r requirements-dev.txt && pre-commit install",
+	//"postStartCommand": "",
 
     // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "vscode"
